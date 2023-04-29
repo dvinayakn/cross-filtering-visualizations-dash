@@ -1,0 +1,39 @@
+#app-layout {
+    width: 100%;
+    gap : 5px;
+}
+
+#app-header-div-id {
+    margin: 0;
+    padding : 0;
+    display: flex;
+    justify-content: center;
+}
+
+#revenue-by-product-div-id {
+    border : 1pt #999 solid;
+    padding : 0;
+}
+
+#revenue-by-region-div-id {
+    border : 1pt #999 solid;
+    padding : 0;
+}
+
+#revenue-by-month-div-id {
+    border : 1pt #999 solid;
+    padding : 0;
+}
+
+
+#revenue-by-product-graph-id, #revenue-by-region-graph-id, #revenue-by-month-graph-id {
+    height: 200px;
+}
+
+#reset-button-id {
+    font-size: 16px;
+    border : 1pt solid #7e99f3;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
